@@ -38,7 +38,7 @@ class Calculadora(object):
              e selecionar uma de suas classes de estilo.
     """
 
-    def __init__(self, master):
+    def __init__(self, master): 
         self.master = master
         self.calc = Calculador()
 
