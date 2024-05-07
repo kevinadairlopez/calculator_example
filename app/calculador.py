@@ -25,7 +25,7 @@ class Calculador(object):
 
     def __format_result(self, result):
         """Formata o resultado em notação cientifica caso seja muito grande
-        e retorna o valor formatado em tipo string"""
+        e retorna o valor formatado em tipo string, agregando más texto..."""
 
         result = str(result)
         if len(result) > 15:
